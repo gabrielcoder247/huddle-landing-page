@@ -25,6 +25,17 @@ header > .top-header {
     justify-content: space-between;
     padding: 40px;
 }
+@media (min-width: 500px){
+
+    .info > button{
+        display: none;
+    }
+    
+    
+    
+}
+
+
 
 .button  {
     display: flex;
@@ -86,6 +97,7 @@ main {
     margin-top: 40px;
     /* grid-template-columns:  1fr;
     grid-template-rows: repeat(3, 1fr); */
+    z-index: -1;
 }
 
 .how-it-works {
@@ -118,4 +130,126 @@ h4 {
 p {
     font-size: 18px;
     line-height: 1.3;
+}
+
+.how-it-works > .sub-info1 {
+    margin: 0 60px
+}
+
+footer {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #111116; */
+    /* z-index: -1; */
+
+}
+.community {
+    position: relative;
+    /* left: 27%;
+    bottom: -1700px; */
+    left: 0%;
+    bottom: -200px;
+    box-shadow: 2px 1px 12px  #DCDCDC;
+    /* margin: 20px 50px; */
+    margin: 0 300px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 100px 250px; */
+    /* z-index: -1000; */
+    /* z-index: 3; */
+
+}
+.community > button {
+    width: 350px;
+    height: 70px;
+    padding: 20;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 40px;
+    background-color: pink;
+    border: 0px;
+    margin-top: 5px;
+    color: white;
+}
+
+.community > button:hover {
+    background-color: rgb(202, 180, 184);
+    color: black;
+    cursor: pointer;
+}
+.community > p {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.footer-details {
+    display: flex;
+    flex-direction: row;
+    background-color: #04040f;
+    /* z-index: -1; */
+    margin: 50px 30px 20px 30px;
+    padding: 300px 100px 20px 100px;
+    color: white;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 0px 80px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.social a {
+    /* padding: 10px; */
+    margin: 5px;
+    color: white;
+}
+
+.social a:hover{
+    /* padding: 10px; */
+    color: blue;
+}
+
+.footer-details .contact-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-details .contact-container h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu1 {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.menu1 > p {
+    font-size: 16px;
+    margin-top: 100px; 
 }
